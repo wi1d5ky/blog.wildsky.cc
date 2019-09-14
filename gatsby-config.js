@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Wildsky F.`,
-    author: `Geng-Zhi W Fann`,
+    author: `Geng-Zhi W. Fann`,
     description: `Easy things should be easy, and hard things should be possible.`,
     siteUrl: `https://staging.wildsky.cc`,
     social: {

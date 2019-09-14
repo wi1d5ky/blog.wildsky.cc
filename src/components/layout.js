@@ -81,38 +81,17 @@ const Layout = (props) => {
           marginLeft: `auto`,
           marginRight: `auto`,
           maxWidth: rhythm(23),
-          padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+          paddingTop: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
         }}
       >
-        <iframe
-          title="Star on GitHub"
-          src="https://ghbtns.com/github-btn.html?user=justinwhall&repo=gatsby-wordpress-netlify-starter&type=star&count=true&size=large"
-          frameBorder="0"
-          scrolling="0"
-          width="158px"
-          height="30px"
-          style={{
-            position: 'absolute',
-            left: 10,
-            top: 10,
-          }}
-          ></iframe>
-          <a
-          href="https://justinwhall.com/headless-wordpress-gatsby-netlify-continous-deployment/"
-          style={{
-            position: 'absolute',
-            left: 150,
-            top: 10,
-          }}
-        >Get Started</a>
         <header>{header}</header>
         <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-          {` `}
-          | Built by <a href="https://justinwhall.com">Justin W. Hall</a>
+        <footer style={{
+          textAlign: 'center',
+          borderTop: '1px solid #ccc',
+          padding: '20px'
+        }}>
+          © {new Date().getFullYear()} | Wildsky
         </footer>
       </div>
     )

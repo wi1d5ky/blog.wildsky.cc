@@ -38,11 +38,9 @@ function Bio() {
               }}
             />
             <p>
-              Created by <strong>{author}</strong> who lives and works in Denver, CO. <br />
-              {` `}
-              <a href={`https://twitter.com/${social.twitter}`}>
-                You should follow him on Twitter
-              </a>
+              我是耿誌，網路上的代號是 <a href={`https://twitter.com/${social.twitter}`}>Wildsky</a>。
+              目前在 Taiwan AILabs 擔任軟體工程師，也在 Mozilla 台灣社群當 keyholder。
+              認識自己是一個不斷演進的過程，我希望可以藉此部落格來理解我是誰、我從哪裡來、要到哪裡去的三個大疑問。
             </p>
           </div>
         )
