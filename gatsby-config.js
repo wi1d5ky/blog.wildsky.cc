@@ -1,13 +1,13 @@
 module.exports = {
   siteMetadata: {
-    title: `WordPress Gatsby Starter`,
-    author: `Justin W Hall`,
-    description: `A Gatsby WordPress Starter with special love for Netlify`,
-    siteUrl: `https://gatsby-wordpress-netlify-production.netlify.com`,
+    title: `Wildsky F.`,
+    author: `Geng-Zhi W Fann`,
+    description: `Easy things should be easy, and hard things should be possible.`,
+    siteUrl: `https://staging.wildsky.cc`,
     social: {
-      twitter: `justinwhall`,
+      twitter: `wildskyf`,
     },
-    postPrefix : '/blog',
+    postPrefix : '/posts',
     pagePrefix: '',
   },
   plugins: [
@@ -29,7 +29,7 @@ module.exports = {
       resolve: 'gatsby-source-wordpress',
       options: {
         // The base url to your WP site.
-        baseUrl: 'gatsbynetliflydemo.justinwhall.com',
+        baseUrl: 'backend.wildsky.cc',
         // baseUrl: 'data.justinwhall.com',
         // baseUrl: 'wpgatsby.wtf',
         // WP.com sites set to true, WP.org set to false
@@ -56,7 +56,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: `UA-50389098-1`,
       },
     },
     `gatsby-plugin-offline`,
