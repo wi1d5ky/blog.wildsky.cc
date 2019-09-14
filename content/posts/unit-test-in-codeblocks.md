@@ -5,7 +5,7 @@ categories:
   - 資工
 tags:
   - unit test
-  - C#
+  - C-sharp
 ---
 
 最近軟體工程在教單元測試（Unit Test），可是因為老師是 C# 聖戰士，

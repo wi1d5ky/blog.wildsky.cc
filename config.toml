@@ -1,6 +1,6 @@
-baseURL = "https://blog.wildsky.cc/"
+baseURL = "https://staging.wildsky.cc/"
 languageCode = "zh-tw"
-title = "ws://wildsky.cc"
+title = "Wildsky F."
 theme = "kiss"
 copyright = "<a href=\"https://github.com/wildskyf\">Geng-Zhi Fann</a> &copy; 2018"
 googleAnalytics = "UA-50389098-1"
